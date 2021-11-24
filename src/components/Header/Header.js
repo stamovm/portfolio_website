@@ -9,6 +9,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span,
 } from './HeaderStyles'
 
 const Header = () => (
@@ -16,8 +17,15 @@ const Header = () => (
     <Div1>
       {' '}
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+        <a
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'white',
+            marginBottom: '20px',
+          }}
+        >
+          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -38,6 +46,14 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
+    <Div3>
+      <SocialIcons href="https://github.com/stamovm">
+        <AiFillGithub size="3rem"></AiFillGithub>
+      </SocialIcons>
+      <SocialIcons href="https://linkedin.com">
+        <AiFillLinkedin size="3rem"></AiFillLinkedin>
+      </SocialIcons>
+    </Div3>
   </Container>
 )
 
