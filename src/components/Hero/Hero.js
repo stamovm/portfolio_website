@@ -12,14 +12,15 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My personal Portfolio
+        Marin Stamov
       </SectionTitle>
-      <SectionText>My name is Marin and I am a Web Developer</SectionText>
-      <Button onClick={() => (window.location = 'https://github.com/stamovm')}>
+      <SectionText>A Web Developer</SectionText>
+      {/* <Button onClick={() => (window.location = 'https://github.com/stamovm')}>
         Projects
-      </Button>
+      </Button> */}
     </LeftSection>
+    <br />
+    <br />
   </Section>
 )
 

@@ -41,15 +41,15 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: 0.5rem 0;
-  font-size: ${(props) => (props.title ? '3rem' : '2rem')};
+  font-size: ${(props) => (props.large ? '3rem' : '2rem')};
 `
 
 export const Hr = styled.hr`
-  width: 50px;
+  width: 60px;
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #006666;
 `
 
 export const Intro = styled.div`
@@ -84,14 +84,15 @@ export const UtilityList = styled.ul`
 `
 
 export const ExternalLinks = styled.a`
-  color: #d4c0c0;
+  color: #fff8f8;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
+  background: #006666;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #801414;
+    color: #d4c0c0;
+    background: #003637;
   }
 `
 
