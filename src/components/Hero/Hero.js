@@ -5,22 +5,16 @@ import {
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents'
-import Button from '../../styles/GlobalComponents/Button'
+// import Button from '../../styles/GlobalComponents/Button'
+
 import { LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section>
     <LeftSection>
-      <SectionTitle main center>
-        Marin Stamov
-      </SectionTitle>
-      <SectionText>A Web Developer</SectionText>
-      {/* <Button onClick={() => (window.location = 'https://github.com/stamovm')}>
-        Projects
-      </Button> */}
+      <SectionTitle main>Marin Stamov</SectionTitle>
+      <SectionText>Web Developer</SectionText>
     </LeftSection>
-    <br />
-    <br />
   </Section>
 )
 
